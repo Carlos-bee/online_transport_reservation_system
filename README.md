@@ -6,4 +6,5 @@ Proyecto subido con gitHUB utilizando comandos.
 
 Fotos de lagunas funcionales del software
 
-![Uploading image.png…]()
+![Uploading PAGINA PRINCIPAL.png…]()
+
