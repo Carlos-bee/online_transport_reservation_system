@@ -4,7 +4,7 @@ Proyecto de base de datos con HTML, pagina web TICKET es un sitema de reservas o
 
 Proyecto subido con gitHUB utilizando comandos.
 
-Fotos de lagunas funcionales del software
+Fotos de algunas lagunas funcionales del software:
 
 Pagina principal:
 ![image](https://user-images.githubusercontent.com/83777985/120742384-660dac80-c4bc-11eb-9f62-2fcbfb98f6fe.png)
@@ -21,7 +21,7 @@ Iniciar sesion para el adiministrador:
 Administrador registrar conductor:
 ![image](https://user-images.githubusercontent.com/83777985/120742558-bb49be00-c4bc-11eb-87b2-d9db9c47d5ac.png)
 
-El administrador puede gestionar todas las tablas que se encuentran en la base de datos, solo se tomaron lagunas funcionales del software.
+El administrador puede gestionar todas las tablas que se encuentran en la base de datos, solo se tomaron algunas lagunas funcionales del software.
 
 
 
