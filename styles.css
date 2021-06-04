@@ -1,0 +1,269 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+body {
+    background: #E5E7E9;
+    color: #000000;
+    background-color: #fdfcff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: #fffdfd;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*navegacion*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 20px 0;
+    background-color: #b92916;
+}
+.nav-brand{
+    width: 80px;
+}
+.nav-logo-sesion{
+    width: 80px;
+}
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 20px;
+}
+.nav-main ul li a{
+    padding: 8px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+ /*principal*/
+ .principal{
+    width: 1138px;
+    height: 550px;
+    background: url('./img/principal 2.jpg') no-repeat center center/cover;
+    padding-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    
+ }
+ h1{
+    position: relative;
+    top: 200px; 
+    color: rgb(255, 254, 254);
+ }
+ .nuestra-promesa{
+    width: 1138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ad0202;
+    padding: 20px;
+    font-size: 25px;
+ 
+ }
+ .div-nuestra-promesa{
+     width: 1138px;
+     padding: 20px;
+ }
+ .empresas-afiliadas{
+    width: 1138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ad0202;
+    padding: 20px;
+    font-size: 25px;
+ }
+ .div-empresas-afiliadas{
+    width: 1138px;
+    padding: 20px;
+ }   
+ .opciones-pago{
+    width: 1138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ad0202;
+    padding: 20px;
+    font-size: 25px;
+ }
+ .div-opciones-pago{
+    width: 1138px;
+    padding: 20px;
+ }   
+ .viaja-con-nosotros{
+    width: 1138px;
+    height: 550px;
+    background: url('./img/viaja\ con\ nosotros.jpg') no-repeat center center/cover;
+    padding-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+ }
+ .viaja{
+    position: relative;
+    top: 200px; 
+    color: rgb(255, 254, 254); 
+ }
+ .principales-rutas{
+   background: #ececec;
+   color: #000000;
+    position: relative;
+    padding: 50px;
+    width: 1138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ 
+ h3{
+    color:#ad0202;
+    padding: 20px;
+    font-size: 20px;
+ 
+ }
+ /*imprimir pasaje*/
+ .imprimir{
+    width: 1138px;
+    
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+ }
+ /*cancelacion*/
+ .cancelacion{
+   width: 1138px;
+   padding: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 25px;
+ }
+
+/*formulario*/
+ 
+
+form{
+	width:300px;
+	padding: 10px;
+	margin:auto;
+	background-color:rgba(255, 251, 251, 0);
+   
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display: flex;
+   font-size: 20px;
+   
+   
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:8px 10px;
+	border:1px solid #000000;
+	border-radius:3px;
+	background-color:#ffffff;
+	margin:8px 0;
+	display:right;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(250, 3, 3);
+	border-radius:5px;
+	display:right;
+	color:#fff;
+	background-color:rgb(250, 3, 3);
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:right;
+	display:right;
+}
+
+/*conductor*/
+h4{
+   width: 1138px;
+   padding: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 35px;
+   color:rgb(250, 3, 3);
+
+}
+form.conductor{
+      padding: 50px 20px;
+      background-color: #381b1ba6;
+      margin: calc(25% + 100px);
+      margin-top: 70px;
+      padding-top: 28px;
+      margin-bottom: 30px
+   }
+   
+   h5 {
+      text-align: center;
+      padding: 12px;
+      color:rgb(143, 5, 5);
+      font-size:20px;
+   }
+   
+   input {
+      width: calc(100% - 20px);
+      padding: 9px;
+      margin: auto;
+      margin-top: 12px;
+      font-size: 16px;
+      display: center;
+   }
+   
+   form input[type="button"]{
+      width:100%;
+      padding:8px 16px;
+      margin-top:32px;
+      border:1px solid rgb(250, 3, 3);
+      border-radius:5px;
+      display:right;
+      color:#fff;
+      background-color:rgb(250, 3, 3);
+   } 
+      
+    

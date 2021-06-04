@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKET Imprimir Pasaje</title>
+<!--FONT OSWALD-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.jpg" alt="logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li> 
+                <li>
+                    <a href="#">Ayuda</a>
+                </li> 
+                <li>
+                    <a href="cancelacion.html">Cancelacion</a>
+                </li> 
+                <li>
+                    <a href="./login-main/index_login.html">Iniciar Sesion</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+<!--imprimir pasaje-->
+        <div class="imprimir">
+           <h2> Imprimir / Enviar a mi email el pasaje </h2>
+           <p>Verifica tus datos y EMAIL / SMS tus pasajes</p>
+        </div>
+        <form action="#" target="" method="get" name="formcancelacion">
+
+            <label for="numero-pasaje">Numero de pasaje</label>
+            <input type="text" name="numero-pasaje" id="numero-pasaje" placeholder="Escribe numero de pasaje"/>
+
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email" placeholder="Ingresa el email utilizado" required />
+
+            <input type="submit" name="Buscar" value="Buscar"/>
+        </form>
+    
+        <footer class="principales-rutas">
+            <h3>Principales Rutas:</h3>
+            <p>Bogotá a Neiva</p>
+            <p>Bucaramanga a Valledupar</p>
+            <p>Barranquilla a Medellín</p>
+            <p>Bucaramanga a Puerto Berrio</p>
+            <p>Medellín a Armenia</p>
+            <p>Bogotá a Cartagena</p>
+            <p>Medellín a Cartagena</p>
+            <p>Valledupar a Bogotá</p>
+            <p>Medellín a Bogotá</p>
+            <p>Bogotá a Medellín</p>
+        </footer>
+    </div>
+</body>
+</html>

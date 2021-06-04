@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKET Imprimir Pasaje</title>
+<!--FONT OSWALD-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.jpg" alt="logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li> 
+                <li>
+                    <a href="#">Ayuda</a>
+                </li> 
+                <li>
+                    <a href="imprimir-pasaje.html">Imprimir pasaje</a>
+                </li>
+                <li>
+                    <a href="cancelacion.html">Cancelacion</a>
+                </li> 
+                <li>
+                    <a href="./login-main/index_login.html">Cerrar Sesion</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+<!--CONDUCTOR-->
+        <header class="conductor">
+            <h4> BIENVENIDO CONDUCTOR A ESTE SISTEMA</h4>
+            
+                 
+        </header>
+
+        <form action="" method="post" name="formconductor">
+            <h5 class="animate__animated animate__backInLeft">Registrate tus datos como conductor</h5>
+            <p>Documento <input type="text" placeholder="ingrese su documento" name="documento"></p>
+            <p>Nombre <input type="text" placeholder="ingrese su nombre" name="nombre"></p>
+            <p>Direccion <input type="text" placeholder="ingrese su direccion" name="direccion"></p>
+            <p>Telefono <input type="text" placeholder="ingrese su telefono" name="telefono"></p>
+            
+            <input type="submit" value="Registrar conductor">
+            <input type="submit" value="ver">
+        </form>
+        <footer class="principales-rutas">
+            <h3>Principales Rutas:</h3>
+            <p>Bogotá a Neiva</p>
+            <p>Bucaramanga a Valledupar</p>
+            <p>Barranquilla a Medellín</p>
+            <p>Bucaramanga a Puerto Berrio</p>
+            <p>Medellín a Armenia</p>
+            <p>Bogotá a Cartagena</p>
+            <p>Medellín a Cartagena</p>
+            <p>Valledupar a Bogotá</p>
+            <p>Medellín a Bogotá</p>
+            <p>Bogotá a Medellín</p>
+        </footer>
+    </div>
+
+    </body>
+</html>
